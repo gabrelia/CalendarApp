@@ -5,6 +5,17 @@
 //On mobile the calendar list of events is turned into  a clickable red dot to save space
 //If you click on it the list comes up
 
+//Used these for sure:
+//DOM element creation, deletion or modification
+//DOM traversal
+//Creating and handling a data structure (JSON, custom objects, etc)
+//Capturing and handling events (beyond just a “Do it!” button
+//AJAX
+//Only one feature with this:
+//Form validation(Checks to make sure the input field is filled before saving event)
+
+
+
 
 window.onload = function(){
 
