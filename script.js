@@ -1,9 +1,9 @@
 //In my app you can add notes, view the current weather and add events to a calendar
 //The weather is taken from an API
-//In the calendar you can add, edit and delete events to each day
-//THe notepad and calendar events are saved to localStorage
+//In the calendar you can add, edit and delete events for each day
+//The notepad and calendar events are saved to localStorage
 //On mobile the calendar list of events is turned into  a clickable red dot to save space
-//If you click on it the list comes up
+//If you click on it the list of events comes up
 
 //Used these for sure:
 //DOM element creation, deletion or modification
