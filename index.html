@@ -1,0 +1,60 @@
+<html>
+
+    <head>
+      <meta content="width=device-width, initial-scale=1" name="viewport" />
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <script src ="script.js"></script>
+    </head>
+<body>
+<div class = "noteandweather">
+<div id = "notepad">
+  <div id = "notes"></div>
+
+<button id="cleartasks">Clear Tasks</button>
+</div>
+
+
+<div id = "weather">
+  <div>
+    <h2>Current Weather</h2>
+    <div class = "description"></div>
+  </div>
+</div>
+
+</div>
+
+<div class = "calendar_container">
+<select id = "monthselect"></select>
+<select id = "yearselect"></select>
+<table id="calendar">
+  <thead>
+    <th>Sunday</th>
+    <th>Monday</th>
+    <th>Tuesday</th>
+    <th>Wednesday</th>
+    <th>Thursday</th>
+    <th>Friday</th>
+    <th>Saturday</th>
+  </thead>
+  <tbody id="calendar_days"></tbody>
+</table>
+
+<div id = "eventModal" class = "hide">
+  <button id = "close">x</button>
+  <input type="text" name="eventitem" id ="eventItem">
+  <button id = "save">Save</button>
+</div>
+
+<div id = "editEventModal" class = "hide">
+  <button id = "editclose">x</button>
+  <input type="text" name="editEventitem" id ="editEventItem">
+  <button id = "saveChanges">Save Changes</button>
+</div>
+
+
+<button id = "clear_storage">Clear Storage</button>
+</div>
+
+</body>
+</html>
+
